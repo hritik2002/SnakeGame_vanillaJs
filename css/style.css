@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background: url("../assets/snakeBg.jpeg");
+  object-fit: contain;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  background: linear-gradient(rgb(208, 238, 208), rgb(236, 236, 206));
+  height: 85vmin;
+  width: 85vmin;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+.head {
+  background: linear-gradient(rgb(248, 191, 191), rgb(247, 247, 190));
+  border: 0.25vmin solid rgb(248, 191, 191);
+  border-radius: 12px;
+}
+.food {
+  background: linear-gradient(rgb(250, 247, 67), rgb(231, 217, 10));
+  border: 0.25vmin solid rgb(215, 247, 165);
+  border-radius: 12px;
+}
+.snake {
+  background: linear-gradient(rgb(181, 131, 185), rgb(184, 128, 174));
+  border: 0.25vmin solid rgb(248, 191, 191);
+  border-radius: 12px;
+}
+#score{
+    position: absolute;
+    top:2vmin;
+    right:20vmin;
+    font-size: 28px;
+    font-weight: 900;
+}
+.difficulty__container{
+    font-size: 25px;
+    position: absolute;
+    top: 2vh;
+    left: 10vw;
+    display: flex;
+   
+}
+select{
+    padding: 4px 8px;
+    font-size: 18px;
+}
+#welcome{
+    font-size: 10vmin;
+    position: absolute;
+    box-shadow: 0 0 23px 400px rgba(0,0,0,0.1);
+
+}
+.none{
+    display: none;
+}
