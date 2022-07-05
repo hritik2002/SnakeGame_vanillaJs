@@ -6,4 +6,6 @@ This game helped me learn
   
   > Implementing game logics in js and changing DOM simultaneously. 
   
+  > Also, hosted the game using netlify.
+  
 Check the hosted site here: https://unrivaled-beijinho-5f8e6f.netlify.app/
